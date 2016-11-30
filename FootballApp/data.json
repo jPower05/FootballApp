@@ -1,0 +1,809 @@
+{
+    "data": {
+        "standings": [
+                      {
+                      "identifier": "psnb5ewiti9ejktz9w7v0lhgq06eorih",
+                      "position": 1,
+                      "team_identifier": "blfamr89lxeyywtsraiqzq5p5zuz57i6",
+                      "team": "Chelsea",
+                      "overall": {
+                      "wins": 10,
+                      "draws": 1,
+                      "losts": 2,
+                      "points": 31,
+                      "scores": 29,
+                      "conceded": 10,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 19
+                      },
+                      "home": {
+                      "wins": 6,
+                      "draws": 0,
+                      "losts": 1,
+                      "scores": 20,
+                      "conceded": 4,
+                      "points": 18,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 16
+                      },
+                      "away": {
+                      "wins": 4,
+                      "draws": 1,
+                      "losts": 1,
+                      "scores": 9,
+                      "conceded": 6,
+                      "points": 13,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 3
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "5hichhljwlipyqvghhr0banvd2gehtcf",
+                      "position": 2,
+                      "team_identifier": "akppwaoizlxbsa66oupfkawevutbnjxp",
+                      "team": "Liverpool",
+                      "overall": {
+                      "wins": 9,
+                      "draws": 3,
+                      "losts": 1,
+                      "points": 30,
+                      "scores": 32,
+                      "conceded": 14,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 18
+                      },
+                      "home": {
+                      "wins": 5,
+                      "draws": 1,
+                      "losts": 0,
+                      "scores": 19,
+                      "conceded": 4,
+                      "points": 16,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 15
+                      },
+                      "away": {
+                      "wins": 4,
+                      "draws": 2,
+                      "losts": 1,
+                      "scores": 13,
+                      "conceded": 10,
+                      "points": 14,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 3
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "lkubql8822qd6hndb9x9wyuo0teop2nk",
+                      "position": 3,
+                      "team_identifier": "xy8xez8msmv4qucyabkhhk4rqbimnprx",
+                      "team": "Man City",
+                      "overall": {
+                      "wins": 9,
+                      "draws": 3,
+                      "losts": 1,
+                      "points": 30,
+                      "scores": 29,
+                      "conceded": 12,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 17
+                      },
+                      "home": {
+                      "wins": 3,
+                      "draws": 3,
+                      "losts": 0,
+                      "scores": 12,
+                      "conceded": 5,
+                      "points": 12,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 7
+                      },
+                      "away": {
+                      "wins": 6,
+                      "draws": 0,
+                      "losts": 1,
+                      "scores": 17,
+                      "conceded": 7,
+                      "points": 18,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 10
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "0zzpc3dzflxbrklpmb8qja9sdeqvs827",
+                      "position": 4,
+                      "team_identifier": "zymx5xdh4knl5dwbcfv3kszge9d8brnw",
+                      "team": "Arsenal",
+                      "overall": {
+                      "wins": 8,
+                      "draws": 4,
+                      "losts": 1,
+                      "points": 28,
+                      "scores": 28,
+                      "conceded": 13,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 15
+                      },
+                      "home": {
+                      "wins": 4,
+                      "draws": 2,
+                      "losts": 1,
+                      "scores": 15,
+                      "conceded": 9,
+                      "points": 14,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 6
+                      },
+                      "away": {
+                      "wins": 4,
+                      "draws": 2,
+                      "losts": 0,
+                      "scores": 13,
+                      "conceded": 4,
+                      "points": 14,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 9
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "0mdexavs0pq4bli3wttpcyuhnnye4nud",
+                      "position": 5,
+                      "team_identifier": "kdrhmjjufk8em0fqjtaltym29v4dwhhb",
+                      "team": "Tottenham",
+                      "overall": {
+                      "wins": 6,
+                      "draws": 6,
+                      "losts": 1,
+                      "points": 24,
+                      "scores": 19,
+                      "conceded": 10,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 9
+                      },
+                      "home": {
+                      "wins": 4,
+                      "draws": 2,
+                      "losts": 0,
+                      "scores": 9,
+                      "conceded": 4,
+                      "points": 14,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 5
+                      },
+                      "away": {
+                      "wins": 2,
+                      "draws": 4,
+                      "losts": 1,
+                      "scores": 10,
+                      "conceded": 6,
+                      "points": 10,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 4
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "njdvlftsgyyqtp9hld9k89v8a5fmeb0x",
+                      "position": 6,
+                      "team_identifier": "qtjxv9d71ntirsgpjbmeefda4gewdnd9",
+                      "team": "Man United",
+                      "overall": {
+                      "wins": 5,
+                      "draws": 5,
+                      "losts": 3,
+                      "points": 20,
+                      "scores": 18,
+                      "conceded": 15,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 3
+                      },
+                      "home": {
+                      "wins": 2,
+                      "draws": 4,
+                      "losts": 1,
+                      "scores": 10,
+                      "conceded": 6,
+                      "points": 10,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 4
+                      },
+                      "away": {
+                      "wins": 3,
+                      "draws": 1,
+                      "losts": 2,
+                      "scores": 8,
+                      "conceded": 9,
+                      "points": 10,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -1
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "ob6h7cvgycoecvigtzk5dufx1elqma0y",
+                      "position": 7,
+                      "team_identifier": "ayffheqlvsrgnd5hwji78nmzyndc1ebj",
+                      "team": "Everton",
+                      "overall": {
+                      "wins": 5,
+                      "draws": 4,
+                      "losts": 4,
+                      "points": 19,
+                      "scores": 16,
+                      "conceded": 15,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 1
+                      },
+                      "home": {
+                      "wins": 3,
+                      "draws": 3,
+                      "losts": 0,
+                      "scores": 9,
+                      "conceded": 4,
+                      "points": 12,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 5
+                      },
+                      "away": {
+                      "wins": 2,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 7,
+                      "conceded": 11,
+                      "points": 7,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -4
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "jelolwx33ynj87dazxcffcpvolfrkksb",
+                      "position": 8,
+                      "team_identifier": "adnmom6x37fhkgdariftnwi3ng7l9y3o",
+                      "team": "Watford",
+                      "overall": {
+                      "wins": 5,
+                      "draws": 3,
+                      "losts": 5,
+                      "points": 18,
+                      "scores": 17,
+                      "conceded": 21,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -4
+                      },
+                      "home": {
+                      "wins": 3,
+                      "draws": 1,
+                      "losts": 3,
+                      "scores": 10,
+                      "conceded": 10,
+                      "points": 10,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 0
+                      },
+                      "away": {
+                      "wins": 2,
+                      "draws": 2,
+                      "losts": 2,
+                      "scores": 7,
+                      "conceded": 11,
+                      "points": 8,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -4
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "qruntyzlcfvwp4zpusvw5tqfecgsifgg",
+                      "position": 9,
+                      "team_identifier": "kywzms4a9knaaqq05ifijbywl4s8ay8g",
+                      "team": "West Bromwich",
+                      "overall": {
+                      "wins": 4,
+                      "draws": 5,
+                      "losts": 4,
+                      "points": 17,
+                      "scores": 17,
+                      "conceded": 16,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 1
+                      },
+                      "home": {
+                      "wins": 2,
+                      "draws": 2,
+                      "losts": 2,
+                      "scores": 10,
+                      "conceded": 9,
+                      "points": 8,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 1
+                      },
+                      "away": {
+                      "wins": 2,
+                      "draws": 3,
+                      "losts": 2,
+                      "scores": 7,
+                      "conceded": 7,
+                      "points": 9,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 0
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "fvx3q3l7oaorpyukoxsly5pefbmydujd",
+                      "position": 10,
+                      "team_identifier": "zygiwlhkuidaovewgbhdk8p0ojhps7m2",
+                      "team": "Southampton",
+                      "overall": {
+                      "wins": 4,
+                      "draws": 5,
+                      "losts": 4,
+                      "points": 17,
+                      "scores": 13,
+                      "conceded": 12,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": 1
+                      },
+                      "home": {
+                      "wins": 3,
+                      "draws": 3,
+                      "losts": 1,
+                      "scores": 7,
+                      "conceded": 5,
+                      "points": 12,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 2
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 2,
+                      "losts": 3,
+                      "scores": 6,
+                      "conceded": 7,
+                      "points": 5,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -1
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "ob74ncplwegeaxcrtcutux4n3723wpku",
+                      "position": 11,
+                      "team_identifier": "qngf4xllztqc9ufhlodfcyw2foowq37v",
+                      "team": "Stoke City",
+                      "overall": {
+                      "wins": 4,
+                      "draws": 4,
+                      "losts": 5,
+                      "points": 16,
+                      "scores": 14,
+                      "conceded": 19,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -5
+                      },
+                      "home": {
+                      "wins": 2,
+                      "draws": 1,
+                      "losts": 3,
+                      "scores": 7,
+                      "conceded": 11,
+                      "points": 7,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -4
+                      },
+                      "away": {
+                      "wins": 2,
+                      "draws": 3,
+                      "losts": 2,
+                      "scores": 7,
+                      "conceded": 8,
+                      "points": 9,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -1
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "mv6de6ctdjkyzpls4tn8pvnoavobdxng",
+                      "position": 12,
+                      "team_identifier": "vwukoorrrn05evkbgihedi7hfqoi9xrb",
+                      "team": "Bournemouth",
+                      "overall": {
+                      "wins": 4,
+                      "draws": 3,
+                      "losts": 6,
+                      "points": 15,
+                      "scores": 15,
+                      "conceded": 19,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -4
+                      },
+                      "home": {
+                      "wins": 3,
+                      "draws": 1,
+                      "losts": 2,
+                      "scores": 10,
+                      "conceded": 6,
+                      "points": 10,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": 4
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 2,
+                      "losts": 4,
+                      "scores": 5,
+                      "conceded": 13,
+                      "points": 5,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -8
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "pt7p1yaskjpynrlqnvl3koirutgmgsqo",
+                      "position": 13,
+                      "team_identifier": "4cjnmvlocc3lpuvq77mmknpbr6gw6vzg",
+                      "team": "Burnley",
+                      "overall": {
+                      "wins": 4,
+                      "draws": 2,
+                      "losts": 7,
+                      "points": 14,
+                      "scores": 12,
+                      "conceded": 21,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -9
+                      },
+                      "home": {
+                      "wins": 4,
+                      "draws": 1,
+                      "losts": 3,
+                      "scores": 11,
+                      "conceded": 8,
+                      "points": 13,
+                      "last_5": "",
+                      "matches_played": 8,
+                      "goal_difference": 3
+                      },
+                      "away": {
+                      "wins": 0,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 1,
+                      "conceded": 13,
+                      "points": 1,
+                      "last_5": "",
+                      "matches_played": 5,
+                      "goal_difference": -12
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "asp4cl0wmywbykloztkd5xaocfwjbm95",
+                      "position": 14,
+                      "team_identifier": "s43zvsj2nykofbrki5muzrxjbekvw3oq",
+                      "team": "Leicester City",
+                      "overall": {
+                      "wins": 3,
+                      "draws": 4,
+                      "losts": 6,
+                      "points": 13,
+                      "scores": 16,
+                      "conceded": 22,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -6
+                      },
+                      "home": {
+                      "wins": 3,
+                      "draws": 3,
+                      "losts": 1,
+                      "scores": 11,
+                      "conceded": 6,
+                      "points": 12,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": 5
+                      },
+                      "away": {
+                      "wins": 0,
+                      "draws": 1,
+                      "losts": 5,
+                      "scores": 5,
+                      "conceded": 16,
+                      "points": 1,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -11
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "6xvindubtiy3brclukimxcxsvfjhcise",
+                      "position": 15,
+                      "team_identifier": "wbnlfprkojj5c2kky1ofbboku8ssr5kn",
+                      "team": "Middlesbrough",
+                      "overall": {
+                      "wins": 2,
+                      "draws": 6,
+                      "losts": 5,
+                      "points": 12,
+                      "scores": 12,
+                      "conceded": 15,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -3
+                      },
+                      "home": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 5,
+                      "conceded": 7,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -2
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 5,
+                      "losts": 1,
+                      "scores": 7,
+                      "conceded": 8,
+                      "points": 8,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -1
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "xbcipgoqnjngnyx4hhpavw1hbc1khzq3",
+                      "position": 16,
+                      "team_identifier": "uib3tekuw1rcay846oo1rjqlhaxq877g",
+                      "team": "West Ham",
+                      "overall": {
+                      "wins": 3,
+                      "draws": 3,
+                      "losts": 7,
+                      "points": 12,
+                      "scores": 14,
+                      "conceded": 24,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -10
+                      },
+                      "home": {
+                      "wins": 2,
+                      "draws": 2,
+                      "losts": 2,
+                      "scores": 6,
+                      "conceded": 9,
+                      "points": 8,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -3
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 5,
+                      "scores": 8,
+                      "conceded": 15,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -7
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "qens1wutxa6axs2vsuidmj1hd9itxnog",
+                      "position": 17,
+                      "team_identifier": "ethn1l67pxbuumri86iyt3br3aoyvnz9",
+                      "team": "Crystal Palace",
+                      "overall": {
+                      "wins": 3,
+                      "draws": 2,
+                      "losts": 8,
+                      "points": 11,
+                      "scores": 21,
+                      "conceded": 26,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -5
+                      },
+                      "home": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 8,
+                      "conceded": 10,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -2
+                      },
+                      "away": {
+                      "wins": 2,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 13,
+                      "conceded": 16,
+                      "points": 7,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -3
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "aategpzmorpfbylw4qng56vpoekvahvc",
+                      "position": 18,
+                      "team_identifier": "trw9iz9lkvdg0du0wvxssfi7d1h9lvdg",
+                      "team": "Hull City",
+                      "overall": {
+                      "wins": 3,
+                      "draws": 2,
+                      "losts": 8,
+                      "points": 11,
+                      "scores": 11,
+                      "conceded": 28,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -17
+                      },
+                      "home": {
+                      "wins": 2,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 6,
+                      "conceded": 12,
+                      "points": 7,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -6
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 5,
+                      "conceded": 16,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -11
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "pkpdxiculbygsfoteisajou0xvefv7s4",
+                      "position": 19,
+                      "team_identifier": "zhwpc025pq8hxjucxifwkjzgrv42m6zo",
+                      "team": "Swansea City",
+                      "overall": {
+                      "wins": 2,
+                      "draws": 3,
+                      "losts": 8,
+                      "points": 9,
+                      "scores": 16,
+                      "conceded": 26,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -10
+                      },
+                      "home": {
+                      "wins": 1,
+                      "draws": 2,
+                      "losts": 4,
+                      "scores": 10,
+                      "conceded": 16,
+                      "points": 5,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -6
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 6,
+                      "conceded": 10,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -4
+                      },
+                      "penalization_points": 0
+                      },
+                      {
+                      "identifier": "deqxlv5vzii7vdsdciawwgfprtkoo96f",
+                      "position": 20,
+                      "team_identifier": "l48mbl7oqnb3jkhncgn4whgtc5n9d2ks",
+                      "team": "Sunderland",
+                      "overall": {
+                      "wins": 2,
+                      "draws": 2,
+                      "losts": 9,
+                      "points": 8,
+                      "scores": 12,
+                      "conceded": 23,
+                      "last_5": "",
+                      "matches_played": 13,
+                      "goal_difference": -11
+                      },
+                      "home": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 4,
+                      "scores": 8,
+                      "conceded": 13,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 6,
+                      "goal_difference": -5
+                      },
+                      "away": {
+                      "wins": 1,
+                      "draws": 1,
+                      "losts": 5,
+                      "scores": 4,
+                      "conceded": 10,
+                      "points": 4,
+                      "last_5": "",
+                      "matches_played": 7,
+                      "goal_difference": -6
+                      },
+                      "penalization_points": 0
+                      }
+                      ],
+        "statusCode": "200",
+        "errorCode": "0",
+        "statusReason": "OK"
+    }
+}

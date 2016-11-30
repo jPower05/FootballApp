@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41E2B5F1DEF606900457A6E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B41E2B5E1DEF606900457A6E /* data.json */; };
 		B49CA9E81DECAF230066CB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49CA9E71DECAF230066CB4C /* AppDelegate.swift */; };
 		B49CA9EA1DECAF230066CB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49CA9E91DECAF230066CB4C /* ViewController.swift */; };
 		B49CA9ED1DECAF230066CB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CA9EB1DECAF230066CB4C /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41E2B5E1DEF606900457A6E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../Desktop/data.json; sourceTree = "<group>"; };
 		B49CA9E41DECAF230066CB4C /* FootballApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49CA9E71DECAF230066CB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49CA9E91DECAF230066CB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				B49CA9EE1DECAF230066CB4C /* Assets.xcassets */,
 				B49CA9F01DECAF230066CB4C /* LaunchScreen.storyboard */,
 				B49CA9F31DECAF230066CB4C /* Info.plist */,
+				B41E2B5E1DEF606900457A6E /* data.json */,
 			);
 			path = FootballApp;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				B49CA9F21DECAF230066CB4C /* LaunchScreen.storyboard in Resources */,
 				B49CA9EF1DECAF230066CB4C /* Assets.xcassets in Resources */,
 				B49CA9ED1DECAF230066CB4C /* Main.storyboard in Resources */,
+				B41E2B5F1DEF606900457A6E /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +408,7 @@
 				B49CAA031DECAF230066CB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49CAA041DECAF230066CB4C /* Build configuration list for PBXNativeTarget "FootballAppTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +417,7 @@
 				B49CAA061DECAF230066CB4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
