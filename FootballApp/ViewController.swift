@@ -9,13 +9,21 @@
 import UIKit
 //@
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
 
+    @IBOutlet weak var teamPicker: UIPickerView!
+    
+    @IBOutlet weak var hiddenLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.teamPicker.delegate = self
+        self.teamPicker.dataSource = self
+        hiddenLabel.isHidden = true
+        hiddenLabel.text = "Bournemouth"
         // Do any additional setup after loading the view, typically from a nib.
         //loadJson (filename: "data.json")
-        loadJson()
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,32 +32,28 @@ class ViewController: UIViewController {
     }
     
     
-    //Fuck this
+    var teams = ["Bournemouth", "Arsenal", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Hull City", "Leicester City", "Liverpool", "Manchester City", "Manchester United", "Middlesbrough", "Southampton", "Stoke City", "Sunderland", "Swansea City", "Tottenham Hotspur", "Watford", "West Brom", "West Ham"]
     
-    
-    
-    func loadJson() {
-        if let path = Bundle.main.path(forResource: "data", ofType: "json") {
-            do {
-                let jsonData = try NSData(contentsOfFile: path, options: NSData.ReadingOptions.mappedIfSafe)
-                do {
-                    let jsonResult: NSDictionary = try JSONSerialization.jsonObject(with: jsonData as Data, options: JSONSerialization.ReadingOptions.mutableContainers) as! NSDictionary
-                   
-                    if let data : [NSDictionary] = jsonResult["data"] as? [NSDictionary] {
-                        for data: NSDictionary in data {
-                            for (name,value) in data {
-                                print("\(name) , \(value)")
-                            }
-                        }
-                    }
-                }
-                catch {
-                print("catch1")
-                }
-            }
-            catch {
-            print("catch2")
-            }
-        }
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return teams.count
     }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return teams[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        hiddenLabel.text = teams[row]
+    }
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let DestViewController : ViewControllerTwo = segue.destination as! ViewControllerTwo
+        
+        DestViewController.currentTeam = hiddenLabel.text!
+    }
+    
 }
