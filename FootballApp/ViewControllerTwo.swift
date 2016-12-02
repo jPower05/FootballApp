@@ -79,7 +79,7 @@ class ViewControllerTwo : UIViewController{
             }
             })
     }
-    
+
     func factSetup(){
         if ((currentTeam) == "Bournemouth"){
             stadium.text = "    Stadium: Dean Court"
