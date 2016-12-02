@@ -45,10 +45,6 @@ class ViewControllerTwo : UIViewController{
     
     
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let DestViewController : ViewController = segue.destination as! ViewController
-    }
-
     
     @IBAction func notifyButtonTapped(_ sender: UIButton) {
         scheduleNotification(inSeconds: 5, completion: {success in
