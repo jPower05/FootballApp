@@ -194,6 +194,11 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="league" destination="oxh-md-mGE" id="zgd-tf-kKO"/>
+                        <outlet property="location" destination="Plf-Gl-vq6" id="Kbj-FM-x8y"/>
+                        <outlet property="manager" destination="7zG-KT-gtq" id="93X-ey-Wq0"/>
+                        <outlet property="nickname" destination="svU-6I-cL3" id="nvO-1D-up4"/>
+                        <outlet property="stadium" destination="SXY-4C-CHU" id="u6P-QZ-jfv"/>
                         <outlet property="teamSelection" destination="jgl-wt-db1" id="mZj-DL-5Pv"/>
                     </connections>
                 </viewController>
