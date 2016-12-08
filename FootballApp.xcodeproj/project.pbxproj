@@ -15,6 +15,7 @@
 		B49CA9F21DECAF230066CB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CA9F01DECAF230066CB4C /* LaunchScreen.storyboard */; };
 		B49CA9FD1DECAF230066CB4C /* FootballAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49CA9FC1DECAF230066CB4C /* FootballAppTests.swift */; };
 		B4B660A61DF96A6D00432249 /* Matches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B660A51DF96A6D00432249 /* Matches.swift */; };
+		B4C6DB601DF9A51C00808AE9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C6DB5F1DF9A51C00808AE9 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B49CA9FC1DECAF230066CB4C /* FootballAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballAppTests.swift; sourceTree = "<group>"; };
 		B49CA9FE1DECAF230066CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4B660A51DF96A6D00432249 /* Matches.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matches.swift; sourceTree = "<group>"; };
+		B4C6DB5F1DF9A51C00808AE9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				B49CA9F31DECAF230066CB4C /* Info.plist */,
 				B40B9CB71DF08E0400D3ABB7 /* ViewControllerTwo.swift */,
 				B4B660A51DF96A6D00432249 /* Matches.swift */,
+				B4C6DB5F1DF9A51C00808AE9 /* SwiftyJSON.swift */,
 			);
 			path = FootballApp;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				B4B660A61DF96A6D00432249 /* Matches.swift in Sources */,
 				B49CA9EA1DECAF230066CB4C /* ViewController.swift in Sources */,
 				B49CA9E81DECAF230066CB4C /* AppDelegate.swift in Sources */,
+				B4C6DB601DF9A51C00808AE9 /* SwiftyJSON.swift in Sources */,
 				B40B9CB81DF08E0400D3ABB7 /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
