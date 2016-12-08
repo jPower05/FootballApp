@@ -97,9 +97,76 @@ class ViewControllerTwo : UIViewController{
                     
                     let parsedData = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:Any]
                     
-                    print(parsedData)
+                    //print(parsedData)
                     
+                    if let rounds = parsedData["rounds"] as? [AnyObject] // posts started with array
+                    {
+                        for round in rounds
+                        {
+                            let name = round["name"] as! String //specify as String
+                            print(name)
+                            
+                            if let matches = round["matches"] as? [AnyObject]
+                            {
+                                for match in matches
+                                {
+                                    let date = match["date"] as! String
+                                    print (date)
+                                    
+                                    if let teams1 = match["team1"] as? [AnyObject]
+                                    {
+                                        for team1 in teams1
+                                        {
+                                            let code = team1["code"] as! String
+                                        }
+                                    }
+                                    if let teams2 = match["team2"] as? [AnyObject]
+                                    {
+                                        for team2 in teams2
+                                        {
+                                            let code = team2["code"] as! String
+                                        }
+                                    }
+                                    
+                                    let score1 = match["score1"] as? String
+                                    let score2 = match["score2"] as? String
+                                }
+                            }
+                        }
+                    }
+                           /*
+                            //let condition = post["conditions"] as! String
+                            //let url = post["url"] as! String
+                            //let id = post["id"] as! String
+                            DispatchQueue.main.sync
+                            {
+                                        
+                                    self.arrayPosts.append(text)
+                                    self.arrayConditions.append(condition)
+                                    self.arrayLinks.append(url)
+                                    self.arrayIDs.append(id)
+                                        
+                                        //optional to check
+                                    self.afterJSON()
+                            }
+                        }
+                    }
+                    */
+                    else
+                    {
+                        print("I could not find rounds array")
+                    }
                     
+                
+                
+    
+                
+                
+                
+                
+                
+                
+                
                 } catch let error as NSError {
                     print(error)
                 }

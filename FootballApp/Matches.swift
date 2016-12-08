@@ -9,9 +9,8 @@
 import Foundation
 
 
-public class Matchday: NSObject {
-    var matchdayName: String = ""
+public class Matches: NSObject {
     var matchDate: String = ""
-    var matchesArray = [String]()
+    var teamsArray = [String]()
     
 }
