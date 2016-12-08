@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		B40B9CB81DF08E0400D3ABB7 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40B9CB71DF08E0400D3ABB7 /* ViewControllerTwo.swift */; };
-		B41E2B5F1DEF606900457A6E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B41E2B5E1DEF606900457A6E /* data.json */; };
-		B41E2B611DEF695600457A6E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = B41E2B601DEF695600457A6E /* data.json */; };
 		B49CA9E81DECAF230066CB4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49CA9E71DECAF230066CB4C /* AppDelegate.swift */; };
 		B49CA9EA1DECAF230066CB4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49CA9E91DECAF230066CB4C /* ViewController.swift */; };
 		B49CA9ED1DECAF230066CB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CA9EB1DECAF230066CB4C /* Main.storyboard */; };
 		B49CA9EF1DECAF230066CB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49CA9EE1DECAF230066CB4C /* Assets.xcassets */; };
 		B49CA9F21DECAF230066CB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49CA9F01DECAF230066CB4C /* LaunchScreen.storyboard */; };
 		B49CA9FD1DECAF230066CB4C /* FootballAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49CA9FC1DECAF230066CB4C /* FootballAppTests.swift */; };
+		B4B660A61DF96A6D00432249 /* Matchday.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B660A51DF96A6D00432249 /* Matchday.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,8 +29,6 @@
 
 /* Begin PBXFileReference section */
 		B40B9CB71DF08E0400D3ABB7 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
-		B41E2B5E1DEF606900457A6E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../Desktop/data.json; sourceTree = "<group>"; };
-		B41E2B601DEF695600457A6E /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		B49CA9E41DECAF230066CB4C /* FootballApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootballApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49CA9E71DECAF230066CB4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B49CA9E91DECAF230066CB4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +39,7 @@
 		B49CA9F81DECAF230066CB4C /* FootballAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootballAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B49CA9FC1DECAF230066CB4C /* FootballAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootballAppTests.swift; sourceTree = "<group>"; };
 		B49CA9FE1DECAF230066CB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B660A51DF96A6D00432249 /* Matchday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matchday.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,6 @@
 		B49CA9DB1DECAF230066CB4C = {
 			isa = PBXGroup;
 			children = (
-				B41E2B601DEF695600457A6E /* data.json */,
 				B49CA9E61DECAF230066CB4C /* FootballApp */,
 				B49CA9FB1DECAF230066CB4C /* FootballAppTests */,
 				B49CA9E51DECAF230066CB4C /* Products */,
@@ -90,8 +87,8 @@
 				B49CA9EE1DECAF230066CB4C /* Assets.xcassets */,
 				B49CA9F01DECAF230066CB4C /* LaunchScreen.storyboard */,
 				B49CA9F31DECAF230066CB4C /* Info.plist */,
-				B41E2B5E1DEF606900457A6E /* data.json */,
 				B40B9CB71DF08E0400D3ABB7 /* ViewControllerTwo.swift */,
+				B4B660A51DF96A6D00432249 /* Matchday.swift */,
 			);
 			path = FootballApp;
 			sourceTree = "<group>";
@@ -188,11 +185,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41E2B611DEF695600457A6E /* data.json in Resources */,
 				B49CA9F21DECAF230066CB4C /* LaunchScreen.storyboard in Resources */,
 				B49CA9EF1DECAF230066CB4C /* Assets.xcassets in Resources */,
 				B49CA9ED1DECAF230066CB4C /* Main.storyboard in Resources */,
-				B41E2B5F1DEF606900457A6E /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B660A61DF96A6D00432249 /* Matchday.swift in Sources */,
 				B49CA9EA1DECAF230066CB4C /* ViewController.swift in Sources */,
 				B49CA9E81DECAF230066CB4C /* AppDelegate.swift in Sources */,
 				B40B9CB81DF08E0400D3ABB7 /* ViewControllerTwo.swift in Sources */,
