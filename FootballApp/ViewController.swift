@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDelegate
         self.teamPicker.delegate = self
         self.teamPicker.dataSource = self
         hiddenLabel.isHidden = true
-        hiddenLabel.text = "Bournemouth"
+        hiddenLabel.text = "Matchday 14"
         // Do any additional setup after loading the view, typically from a nib.
         //loadJson (filename: "data.json")
     }
@@ -32,18 +32,18 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDelegate
     }
     
     
-    var teams = ["Bournemouth", "Arsenal", "Burnley", "Chelsea", "Crystal Palace", "Everton", "Hull City", "Leicester City", "Liverpool", "Manchester City", "Manchester United", "Middlesbrough", "Southampton", "Stoke City", "Sunderland", "Swansea City", "Tottenham Hotspur", "Watford", "West Brom", "West Ham"]
+    var matchday = ["Matchday 1", "Matchday 2", "Matchday 3", "Matchday 4", "Matchday 5", "Matchday 6", "Matchday 7", "Matchday 8", "Matchday 9", "Matchday 10", "Matchday 11", "Matchday 12", "Matchday 13", "Matchday 14", "Matchday 15", "Matchday 16", "Matchday 17", "Matchday 18", "Matchday 19", "Matchday 20", "Matchday 21", "Matchday 22", "Matchday 23", "Matchday 24", "Matchday 25", "Matchday 26", "Matchday 27", "Matchday 28", "Matchday 29", "Matchday 30", "Matchday 31", "Matchday 32", "Matchday 33","Matchday 33", "Matchday 34", "Matchday 35", "Matchday 36", "Matchday 37", "Matchday 38"]
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return teams.count
+        return matchday.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return teams[row]
+        return matchday[row]
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        hiddenLabel.text = teams[row]
+        hiddenLabel.text = matchday[row]
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -53,7 +53,7 @@ class ViewController: UIViewController, UITextViewDelegate, UIPickerViewDelegate
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let DestViewController : ViewControllerTwo = segue.destination as! ViewControllerTwo
         
-        DestViewController.currentTeam = hiddenLabel.text!
+        DestViewController.currentMatchday = hiddenLabel.text!
     }
     
 }

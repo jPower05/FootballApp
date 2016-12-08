@@ -11,7 +11,7 @@ import UIKit
 import UserNotifications
 import UserNotificationsUI //framework to customize the notification
 
-class ViewControllerTwo : UIViewController{
+class ViewControllerTwo : UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     @IBOutlet weak var teamSelection: UILabel!
     @IBOutlet weak var location: UILabel!
@@ -19,12 +19,26 @@ class ViewControllerTwo : UIViewController{
     @IBOutlet weak var manager: UILabel!
     @IBOutlet weak var stadium: UILabel!
     @IBOutlet weak var league: UILabel!
-    var currentTeam = String()
+    var currentMatchday = String()
     
-    var capacity = String()
+    @IBOutlet weak var fixturesTable: UITableView!
+    
     
     var matchdayGames = [String]()
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return (matchdayGames.count)
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        
+        cell.textLabel!.text = matchdayGames[indexPath.row]
+        print (cell.textLabel!.text)
+       
+        
+        return (cell)
+    }
     
     
     
@@ -39,10 +53,15 @@ class ViewControllerTwo : UIViewController{
                 
             }
         })
+        fixturesTable.delegate = self
         
+        fixturesTable.dataSource = self
+
         
-        teamSelection.text = currentTeam
+        teamSelection.text = currentMatchday
         getData()
+        
+        
         
         
     }
@@ -95,64 +114,60 @@ class ViewControllerTwo : UIViewController{
             if error != nil {
                 print(error!)
             } else {
-                do {
-                    
-                    print(data!)
-                    
-                    let parsedData = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:Any]
-                    
-                    //print(parsedData)
-                    var matchInfo = " Ooops something went wrong"
-                    
-                    if let rounds = parsedData["rounds"] as? [AnyObject] // posts started with array
-                    {
-                        for round in rounds
+                DispatchQueue.main.async {
+                    do {
+                        
+                        print(data!)
+                        
+                        let parsedData = try JSONSerialization.jsonObject(with: data!, options: .allowFragments) as! [String:Any]
+                        
+                        var matchInfo = " Ooops something went wrong"
+                        
+                        if let rounds = parsedData["rounds"] as? [AnyObject] // posts started with array
                         {
-                            let name = round["name"] as! String //specify as String
-                            //print(name)
-                            if (name == ("Matchday 1")){
-                                print (name)
+                            for round in rounds
+                            {
+                                let name = round["name"] as! String //specify as String
                                 
-                                
-                                
-                                if let matches = round["matches"] as? [AnyObject]
-                                {
-                                    for match in matches
+                                if (name == (self.currentMatchday)){
+                                    print (name)
+                                    
+                                    
+                                    
+                                    if let matches = round["matches"] as? [AnyObject]
                                     {
-                                        let date = match["date"] as! String
-                                        //print (date)
-                                        
-                                        
-                                        let teams1 = match["team1"] as? NSDictionary
-                                        let team1code = teams1?["code"] as? String
-                                        //print (team1code!)
-                                        //print("team1 = \(teams1!)")
-                                        
-                                        let teams2 = match["team2"] as? NSDictionary
-                                        let team2code = teams2?["code"] as? String
-                                        //print (team2code!)
-                                        
-                                        matchInfo = (date + ": " + team1code! + " VS " + team2code!)
-                                        print (matchInfo)
-                                        self.matchdayGames.append(matchInfo)
-                                        
+                                        for match in matches
+                                        {
+                                            let date = match["date"] as! String
+                                            
+                                            let teams1 = match["team1"] as? NSDictionary
+                                            let team1code = teams1?["code"] as? String
+                                            
+                                            let teams2 = match["team2"] as? NSDictionary
+                                            let team2code = teams2?["code"] as? String
+                                            
+                                            matchInfo = (date + ": " + team1code! + " VS " + team2code!)
+                                            print (matchInfo)
+                                            self.matchdayGames.append(matchInfo)
+                                            print ("ADDED")
+                                            
+                                        }
                                     }
                                 }
                             }
                         }
+                        else
+                        {
+                            print("I could not find rounds array")
+                        }
+                    } catch let error as NSError {
+                        print(error)
                     }
-                    else
-                    {
-                        print("I could not find rounds array")
-                    }
-                } catch let error as NSError {
-                    print(error)
                 }
                 
             }
             
         }).resume()
-        
         
     }
     
