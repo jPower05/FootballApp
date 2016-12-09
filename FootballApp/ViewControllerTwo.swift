@@ -116,7 +116,7 @@ class ViewControllerTwo : UIViewController, UITableViewDelegate, UITableViewData
         
         var currentMatchday = String()
         
-        let urlString = "https://raw.githubusercontent.com/opendatajson/football.json/master/2015-16/en.1.json"
+        let urlString = "https://raw.githubusercontent.com/opendatajson/football.json/master/2016-17/en.1.json"
         
         
         let url = URL(string: urlString)
@@ -167,7 +167,7 @@ class ViewControllerTwo : UIViewController, UITableViewDelegate, UITableViewData
                                                 let team2code = teams2?["code"] as? String
                                                 
                                                 matchInfo = (date + ": " + team1code! + " VS " + team2code!)
-                                                //print (matchInfo)
+                                                print (matchInfo)
                                                 matchdayGames.append(matchInfo)
                                                 //print ("ADDED")
                                                 
